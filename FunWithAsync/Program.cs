@@ -14,6 +14,7 @@ namespace FunWithAsync
             Console.WriteLine();
             Console.WriteLine("Completed!!");
         }
+        //Async Method for multitreading func
         static async Task<string> DoWOrkAsync()
         {
             return await Task.Run(() => {
